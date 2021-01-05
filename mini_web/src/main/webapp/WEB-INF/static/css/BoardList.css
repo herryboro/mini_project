@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.board {
+	background-color: pink;
+	display: flex;
+	
+}
+
+.board .board_title {
+	background-color: yellow;
+	display: flex;
+}

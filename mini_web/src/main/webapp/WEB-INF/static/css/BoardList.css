@@ -1,12 +1,98 @@
 @charset "UTF-8";
 
-.board {
-	background-color: pink;
+:root {
+	/* padding */
+	--padding: 15px;
+}
+
+ul {
+	margin: 0px;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
 	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;	
+}
+
+.board {
+	border: 1px solid;
+	flex-direction: column;
+	width: 1200px;
+	height: 600px
 	
 }
 
-.board .board_title {
-	background-color: yellow;
+.board .board_top {
+	
+}
+
+.board .board_top .board_top_ul {
 	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	padding: var(--padding);
+}
+
+.board .board_top .board_top_ul .top_title {
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.board .board_top .board_top_ul .top_writer {
+	margin-left: 45px;
+}
+
+.board .board_top .board_top_ul .top_date {
+	margin-left: 50px;
+}
+
+.board .board_middle {
+	
+}
+
+.board .board_middle .board_middle_ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	padding: var(--padding);
+}
+
+.board .board_middle .board_middle_ul .middle_num_title {
+	display: flex;
+	width: 700px;
+}
+
+.board .board_middle .board_middle_ul .middle_num_title .middle_num {
+	margin-left: 5px;
+}
+
+.board .board_middle .board_middle_ul .middle_num_title .middle_title {
+	margin-left: 30px;
+}
+
+.board .board_middle .board_middle_ul .middle_num_title .middle_commentSign {
+	margin-left: 20px;
+}
+
+.board .board_middle .board_middle_ul .middle_writer {
+	width: 170px;
+	margin-left: 50px;
+	text-align: center;
+}
+
+.board .board_middle .board_middle_ul .middle_date {
+	width: 100px;
+	text-align: center;
+}
+
+.board .board_middle .board_middle_ul .middle_view {
+	width: 50px;
+	text-align: center;
 }

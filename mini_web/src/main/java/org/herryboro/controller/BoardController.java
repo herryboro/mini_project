@@ -12,4 +12,9 @@ public class BoardController {
 	public String boardList() {
 		return "/board/boardList";
 	}
+	
+	@GetMapping("/loginPage.do")
+	public String loginPage() {
+		return "/board/loginPage";
+	}
 }

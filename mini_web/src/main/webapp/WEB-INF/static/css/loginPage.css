@@ -11,29 +11,38 @@
 html, body {
     margin: 0;
     height: 100%;
-    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .login {
 	width: 400px;
-    height: 450px;
+   	height: 393px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	justify-content: space-around;
+	
+	align-items: center;
+	border-radius: 10px;
 	
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 100px;
 	
-	background-color: #E6E0F8;
+	background-color: #FBEFEF;
+	
 }
 
 .top {
+	padding-bottom: 28px;
 	display: flex;
 	justify-content: center;
 }
 
 .top i {
+	padding-top: 4px;
+	margin-right: 10px;
 	font-size: 25px
 }
 
@@ -45,8 +54,7 @@ html, body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;	
-	margin-left: auto;
-	margin-right: auto;
+	margin-bottom: 10px;
 }
 
 .middle .middle_id {
@@ -54,7 +62,7 @@ html, body {
 	height: 25px;
 	border: 0px;
 	border-radius: 10px;
-	background-color: #F2F2F2;
+	background-color: #FFFFFF;
 	padding: var(--padding);
 	margin: var(--margin);
 }
@@ -64,21 +72,28 @@ html, body {
 	height: 25px;
 	border: 0px;
 	border-radius: 10px;
-	background-color: #F2F2F2;
+	background-color: #FFFFFF;
 	padding: var(--padding);
 	margin: var(--margin);
 }
 
 .loginBtn {
-	width: 300px;
-    height: 25px;
+	width: 330px;
+    height: 55px;
     border: 0px;
 	border-radius: 10px;
     padding: var(--padding);
 	margin: var(--margin);
-    background-color: #A9F5A9;
-    
-    margin-left: auto;
-	margin-right: auto;
+    background-color: #A9F5A9;  
+}
+
+.bottom {
+	display: flex;
+	flex-direction: column;
+	color: #757575;
+}
+
+.bottom a {
+	text-align: center;
 }
    

@@ -20,10 +20,9 @@
 			<input type="text" class="middle_pw" name="pw">
 			<button class="loginBtn">로그인</button>
 		</div>
-		
-		<div>
-			<div>아직 HerryWorld의 회원이 아니신가요?</div>
-			<a href="/board/insert.do">회원가입하기</a>
+		<div class="bottom">
+			<div class="bottom title">아직 HerryBoroWorld의 회원이 아니신가요?</div>
+			<a class="bottom insert" href="/board/insert.do">회원가입하기</a>
 		</div>
 	</section>
 </body>

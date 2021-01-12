@@ -87,12 +87,6 @@ html, body {
     background-color: #ffeb3b;  
 }
 
-.bottom {
-	display: flex;
-	flex-direction: column;
-	color: #757575;
-}
-
 .bottom a {
 	text-align: center;
 }

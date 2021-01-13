@@ -21,7 +21,7 @@
 	</header>
 	
 	<section class="comment_notice">
-		<div style="border: 1px; background-color: #ffeb3b; border-radius: 5px;">5개</div>
+		<div style="border: 1px; background-color: #ffeb3b; border-radius: 5px;">100개</div>
 		<div>의 댓글이 추가되었습니다.</div>
 	</section>  
 	
@@ -49,8 +49,9 @@
 				<ul class="board_middle_ul">		
 					<li class="middle_num_title">			
 						<div class="middle_num">10</div>
-						<div class="middle_title">Welcome to Heryboro World~!Welcome to Heryboro World~!Welcome tosfdfdf </div>
-						<div class="middle_commentSign">☆</div>
+						<div class="middle_title">Welcome to Heryboro World~!Welcome to Heryboro World~!Welcome tosfdfdf</div>
+						<div class="middle_commentSign"><i class="far fa-comments"></i></div>
+						<div class="middle_comment_cnt">911</div>
 					</li>			
 					<li class="middle_writer">herryboro</li>
 					<li class="middle_date">2021/01/06</li>
@@ -64,7 +65,7 @@
 					<li class="middle_num_title">			
 						<div class="middle_num">10</div>
 						<div class="middle_title">Welcome to Heryboro World~!Welcome to Heryboro World~!Welcome tosfdfdf </div>
-						<div class="middle_commentSign">☆</div>
+						<div class="middle_commentSign"><i class="far fa-comments"></i></div>
 					</li>			
 					<li class="middle_writer">herryboro</li>
 					<li class="middle_date">2021/01/06</li>
@@ -79,7 +80,7 @@
 					<li class="middle_num_title">			
 						<div class="middle_num">10</div>
 						<div class="middle_title">Welcome to Heryboro World~!Welcome to Heryboro World~!Welcome tosfdfdf </div>
-						<div class="middle_commentSign">☆</div>
+						<div class="middle_commentSign"><i class="far fa-comment-dots"></i></div>
 					</li>			
 					<li class="middle_writer">herryboro</li>
 					<li class="middle_date">2021/01/06</li>
@@ -93,7 +94,7 @@
 					<li class="middle_num_title">			
 						<div class="middle_num">10</div>
 						<div class="middle_title">Welcome to Heryboro World~!Welcome to Heryboro World~!Welcome tosfdfdf </div>
-						<div class="middle_commentSign">☆</div>
+						<div class="middle_commentSign"><i class="fas fa-comment-dots"></i></div>
 					</li>			
 					<li class="middle_writer">herryboro</li>
 					<li class="middle_date">2021/01/06</li>
@@ -107,7 +108,7 @@
 					<li class="middle_num_title">			
 						<div class="middle_num">10</div>
 						<div class="middle_title">Welcome to Heryboro World~!Welcome to Heryboro World~!Welcome tosfdfdf </div>
-						<div class="middle_commentSign">☆</div>
+						<div class="middle_commentSign"><i class="fas fa-comment-alt"></i></div>
 					</li>			
 					<li class="middle_writer">herryboro</li>
 					<li class="middle_date">2021/01/06</li>
@@ -121,7 +122,7 @@
 					<li class="middle_num_title">			
 						<div class="middle_num">10</div>
 						<div class="middle_title">Welcome to Heryboro World~!Welcome to Heryboro World~!Welcome tosfdfdf </div>
-						<div class="middle_commentSign">☆</div>
+						<div class="middle_commentSign"><i class="far fa-comment-alt"></i></div>
 					</li>			
 					<li class="middle_writer">herryboro</li>
 					<li class="middle_date">2021/01/06</li>
@@ -135,7 +136,7 @@
 					<li class="middle_num_title">			
 						<div class="middle_num">10</div>
 						<div class="middle_title">Welcome to Heryboro World~!Welcome to Heryboro World~!Welcome tosfdfdf </div>
-						<div class="middle_commentSign">☆</div>
+						<div class="middle_commentSign"><i class="fas fa-comment"></i></div>
 					</li>			
 					<li class="middle_writer">herryboro</li>
 					<li class="middle_date">2021/01/06</li>
@@ -149,7 +150,7 @@
 					<li class="middle_num_title">			
 						<div class="middle_num">10</div>
 						<div class="middle_title">Welcome to Heryboro World~!Welcome to Heryboro World~!Welcome tosfdfdf </div>
-						<div class="middle_commentSign">☆</div>
+						<div class="middle_commentSign"><i class="far fa-comment"></i></div>
 					</li>			
 					<li class="middle_writer">herryboro</li>
 					<li class="middle_date">2021/01/06</li>

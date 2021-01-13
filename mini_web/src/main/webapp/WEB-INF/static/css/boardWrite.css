@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #FAFAFA;
+}
+
+body {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.boardWrite {
+	width: 1200px;
+}
+    
+.boardWrite .boardWriteTitle {
+	border-top: 1px solid #bdbdbd;
+}
+
+.boardWrite .boardWriteTitle input{
+	width: 900px;
+}
+
+.boardWrite .boardContent input{
+	width: 900px;
+	height: 400px;
+}
+
+.boardWrite .boardWriteAuthor input{
+	width: 200px
+}
+
+.boardWrite .boardWritePw input{
+	width: 200px
+}
+
+.boardWrite .boardWriteFile input{
+	width: 205px
+}
+
+.boardWrite .boardWriteTitle .boardInner {
+	margin-right: 20px;
+	width: 48px;
+}
+
+.boardWrite .boardContent .boardInner {
+	margin-right: 21px;
+	width: 48px;
+}
+
+.boardWrite .boardWriteAuthor .boardInner {
+	margin-right: 21px;
+	width: 48px;
+}
+
+.boardWrite input {
+	border-radius: 5px;
+	border: 0.1px solid #bdbdbd;
+	height: 25px;
+}
+.board {
+	display: flex;
+	border-bottom: 1px solid #bdbdbd;
+	padding: 15px 10px;
+}
+
+.boardWrite .boardInner {
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.title {
+	margin-bottom: 20px;
+    margin-right: 1108px;
+    
+	font-size: 30px; 
+	font-weight: 300px;
+}
+
+.button {
+	margin: 10px 1107px 100px 0px;
+}
+
+.btn {
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+}
+
+.btn:hover{
+	background-color: #F6CED8;
+}

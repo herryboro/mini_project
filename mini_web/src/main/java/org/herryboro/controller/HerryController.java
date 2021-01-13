@@ -29,4 +29,9 @@ public class HerryController {
 		return "/board/boardList";
 	}	
 	
+	@GetMapping("/boardWrite.do")
+	public String boardWrite() {
+		return "/board/boardWrite";
+	}
+	
 }

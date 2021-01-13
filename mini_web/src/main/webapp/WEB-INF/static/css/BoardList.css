@@ -132,7 +132,7 @@ html, body {
 
 .board .board_middle .board_middle_ul .middle_num_title {
 	display: flex;
-	width: 700px;
+	width: 720px;
 }
 
 .board .board_middle .board_middle_ul .middle_num_title .middle_num {
@@ -145,12 +145,18 @@ html, body {
 }
 
 .board .board_middle .board_middle_ul .middle_num_title .middle_commentSign {
-	margin-left: 20px;
+	margin-left: 15px;
+}
+
+.board .board_middle .board_middle_ul .middle_num_title .middle_comment_cnt {
+	margin-left: 3px;
+	font-size: 13px;
+	padding-top: 2px;
 }
 
 .board .board_middle .board_middle_ul .middle_writer {
 	width: 160px;
-	margin-left: 60px;
+	margin-left: 40px;
 	text-align: center;
 }
 

@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">   
 <script src="https://kit.fontawesome.com/57cb575b1d.js" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/BoardList.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/js/boardList.js"></script>
 <title>회원 낙서장</title>
 </head>
 <body>
@@ -19,12 +19,12 @@
 		</div>
 		<div class="nav_logout"><a href="#">로그아웃</a></div>
 	</header>
-	
+	<!--  
 	<section class="comment_notice">
 		<div style="border: 1px; background-color: #ffeb3b; border-radius: 5px;">100개</div>
 		<div>의 댓글이 추가되었습니다.</div>
 	</section>  
-	
+	-->
 	<section class="board">
 		<div class="search">	
 			<select class="search choice_searchList">

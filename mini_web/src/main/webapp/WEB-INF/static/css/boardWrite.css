@@ -12,8 +12,13 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
+body .title {
+	margin-right: 1013px;
+}
+
 .boardWrite {
-	width: 1200px;
+    width: 1100px;
 }
     
 .boardWrite .boardWriteTitle {
@@ -26,19 +31,75 @@ body {
 
 .boardWrite .boardContent input{
 	width: 900px;
-	height: 400px;
+	height: 250px;
+	overflow: auto;
 }
 
 .boardWrite .boardWriteAuthor input{
-	width: 200px
+	width: 100px
+}
+
+.boardWrite .boardWriteAuthor .boardInner{
+	margin-top: 2px;
 }
 
 .boardWrite .boardWritePw input{
-	width: 200px
+	width: 100px
+}
+
+.boardWrite .boardWritePw .boardInner{
+	margin-top: 2px;
 }
 
 .boardWrite .boardWriteFile input{
-	width: 205px
+	width: 50px
+}
+
+.boardWrite .boardWriteFile .file_fileBox {
+	display: flex;
+}
+
+.boardWrite .boardWriteFile .addFile {
+	cursor: pointer;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	height: 23px;
+}
+
+.boardWrite .boardWriteFile .file_box {
+	display: none;
+	
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	
+	margin-left: 43px;
+	width: 800px;
+	height: 100px;	    
+	
+	overflow:auto;
+}
+
+.boardWrite .boardWriteFile .file_box ul {
+	display: flex;
+	list-style: none;
+	
+	padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.boardWrite .boardWriteFile .file_box ul .file_del {
+	margin-top: 1px;
+    margin-left: 10px;
+}
+
+.boardWrite .boardWriteFile .file_box .file_name {
+	margin-left: 10px;
+}
+
+.boardWrite .boardWriteFile .addFile label{
+	cursor: pointer;
+	padding: 10px;
 }
 
 .boardWrite .boardWriteTitle .boardInner {
@@ -82,6 +143,7 @@ body {
 
 .button {
 	margin: 10px 1107px 100px 0px;
+	margin-right: 1005px;
 }
 
 .btn {

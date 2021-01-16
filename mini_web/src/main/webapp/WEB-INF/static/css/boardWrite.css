@@ -29,10 +29,13 @@ body .title {
 	width: 900px;
 }
 
-.boardWrite .boardContent input{
+.boardWrite .boardContent textarea{
 	width: 900px;
 	height: 250px;
 	overflow: auto;
+	padding: none;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
 }
 
 .boardWrite .boardWriteAuthor input{
@@ -153,5 +156,5 @@ body .title {
 }
 
 .btn:hover{
-	background-color: #F6CED8;
+	background-color: #E7B2A4;
 }

@@ -13,39 +13,41 @@
 </head>
 <body>
 	<div class="title">글작성</div>
-	<section class="boardWrite">
-		<div class="board boardWriteTitle">
-			<div class="boardInner">제목</div>
-			<input type="text">
-		</div>
-		<div class="board boardContent">
-			<div class="boardInner">내용</div>
-			<input type="text">
-		</div>
-		<div class="board boardWriteAuthor">
-			<div class="boardInner">작성자</div>
-			<input type="text">
-		</div>
-		<div class="board boardWriteFile">
-			<div class="boardInner">파일첨부</div>
-			<div class="file_fileBox">
-				<div class="addFile">
-					<label for="addFile_btn">내 PC</label>
-					<input id="addFile_btn" multiple="multiple" type="file" max="5" style="display: none">
-				</div>
-				<div class="file_box">
-					
+	<form action="boardWriteRegister.do" method="post">
+		<section class="boardWrite">
+			<div class="board boardWriteTitle">
+				<div class="boardInner">제목</div>
+				<input type="text">
+			</div>
+			<div class="board boardContent">
+				<div class="boardInner">내용</div>
+				<textarea></textarea>
+			</div>
+			<div class="board boardWriteAuthor">
+				<div class="boardInner">작성자</div>
+				<input type="text" readonly="readonly">
+			</div>
+			<div class="board boardWriteFile">
+				<div class="boardInner">파일첨부</div>
+				<div class="file_fileBox">
+					<div class="addFile">
+						<label for="addFile_btn">내 PC</label>
+						<input id="addFile_btn" multiple="multiple" type="file" max="5" style="display: none">
+					</div>
+					<div class="file_box">
+						
+					</div>
 				</div>
 			</div>
+			<div class="board boardWritePw">
+				<div class="boardInner">비밀번호</div>
+				<input type="password">
+			</div>
+		</section>
+		<div class="button">
+			<button class="btn input" type="submit">등록</button>
+			<button class="btn cancel" onclick="location.href='boardList.do'">취소</button>
 		</div>
-		<div class="board boardWritePw">
-			<div class="boardInner">비밀번호</div>
-			<input type="password">
-		</div>
-	</section>
-	<div class="button">
-		<button class="btn input">등록</button>
-		<button class="btn cancel">취소</button>
-	</div>
+	</form>
 </body>
 </html>

@@ -30,7 +30,8 @@
 			<select class="search choice_searchList">
 				<option>전체</option>
 				<option>제목</option>
-				<option>닉네임</option>							
+				<option>닉네임</option>		
+				<option>내용</option>							
 			</select>
 			<input class="search search_content" type="text">
 			<button class="search search_btn"><i class="fas fa-search"></i></button>

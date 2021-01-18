@@ -1,2 +1,157 @@
 @charset "UTF-8";
+:root {
+	--padding: 20px;
+}
+html body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section {
+	border: 1px solid #D8D8D8;
+	border-bottom: none;
+	border-radius: 5px;
+	
+	width: 1300px;
+	margin-bottom: 100px;
+}
 
+section .content-top {
+	display: flex;
+	flex-direction: column;
+	
+	
+	padding: var(--padding);
+}
+
+section .content-top .top-line {
+	border-bottom: 1px solid #D8D8D8;
+	width: 1250px;
+}
+
+
+section .top-etc {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+section .content-top button{
+	background-color: window;
+	border: 0;
+	outline: 0;
+}
+
+section .content-top .top-title {
+	font-weight: bold;
+	font-size: 23px;
+	text-decoration: underline;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+section .content-top .etc-date {
+	border-right: 1px solid #D8D8D8;
+	padding-right: 10px;
+}
+
+section .content-top .etc-num {
+	border-right: 1px solid #D8D8D8;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+section .content-middle {
+	border-bottom: 1px solid #D8D8D8;
+	
+	padding: var(--padding);
+	padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+section .content-bottom {
+	display: flex;
+	flex-direction: column;
+	padding: var(--padding);
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #D8D8D8; 
+}
+
+section .content-bottom .bottom-etc {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+section .content-bottom .etc-nickname {
+	border-right: 1px solid #D8D8D8;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+section .content-bottom .etc-date {
+	border-right: 1px solid #D8D8D8;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+section .content-bottom .bottom-reply {
+	display: flex;
+	border: 1px solid #D8D8D8;
+}
+
+section .content-reply {
+	display: flex;
+	flex-direction: column;
+	
+	padding: var(--padding);
+	padding-bottom: 10px;
+	
+	border-bottom: 1px solid #bdbdbd;
+}
+
+section .content-reply .reply-content {
+	display: flex;
+}
+
+section .content-reply .reply-nickname {
+	font-weight: bold;
+	padding: 10px;
+	padding-top: 3px;
+	width: 120px;
+	height: 15px;
+	text-align:center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-right: 10px;
+	
+	border: 1px solid #D8D8D8;
+	border-radius: 5px;		  
+}
+
+section .content-reply textarea {
+	width: 1152px;
+    height: 72px;
+    
+    border: 1px solid #bdbdbd;
+	border-radius: 5px;
+}
+
+section .content-reply button {
+	width: 72px;
+    height: 32px;
+    background-color: #F2F2F2;
+    outline: 0;
+    cursor: pointer;
+    
+    border: none;
+    border-radius: 5px;
+    
+    margin-top: 10px;
+    margin-left: 1188px;
+}
+
+section .content-reply button:hover {
+	background-color: #E7B2A4;
+}

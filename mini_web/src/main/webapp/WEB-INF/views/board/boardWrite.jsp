@@ -12,7 +12,7 @@
 <title>글작성</title>
 </head>
 <body>
-	<div class="title">글작성/div>
+	<div class="title">글작성</div>
 	<form action="boardWriteRegister.do" method="post">
 		<section class="boardWrite">
 			<div class="board boardWriteTitle">

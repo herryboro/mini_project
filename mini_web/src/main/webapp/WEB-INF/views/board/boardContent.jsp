@@ -129,6 +129,6 @@
 				$('.modal-total').css('display', 'block');
 			});
 		});
-	</script>
+	</script> 
 </body>
 </html>

@@ -39,6 +39,11 @@ public class HerryController {
 		return "redirect:/herry/boardList.do";
 	}
 	
+	@PostMapping("/boardContentRegister.do")
+	public String boardContentRegister() {
+		return "redirect:/herry/boardList.do";
+	}
+	
 	@GetMapping("/boardContent.do")
 	public String boardContent() {
 		return "/board/boardContent";

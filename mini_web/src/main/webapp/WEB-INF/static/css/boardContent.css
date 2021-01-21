@@ -262,6 +262,7 @@ section .content-reply button {
 section .content-reply button:hover {
 	background-color: #E7B2A4;
 }
+
 .modal-total {
 	display: none;
 }
@@ -394,6 +395,8 @@ section .content-reply button:hover {
 	margin: auto;
 	position: relative;
 	top: 200px;
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 50px #585858;
 }
 
 .memberReplyModal-update-box .updateBox {
@@ -420,8 +423,14 @@ section .content-reply button:hover {
 .memberReplyModal-update .fa-times {
 	position: relative;
 	left:563px;
+	top:10px;
 	font-size: 20px;
-	padding: var(--padding-lr);
+	padding: 5px;
+}
+
+.memberReplyModal-update .fa-times:hover {
+	background-color: #E7B2A4;
+	border-radius: 5px;
 }
 
 .memberReplyModal-update-layer {
@@ -432,3 +441,80 @@ section .content-reply button:hover {
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.4);
 }
+
+.memberReplyModal-del-layer {
+	display: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.memberReplyModal-del {
+	display: block;
+}
+
+.memberReplyModal-del-box {
+	display: flex;	
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 350px;
+    height: 250px;
+	border-radius: 10px;
+	margin: auto;
+	position: relative;
+	top: 300px;
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 50px #585858;						
+}
+
+.memberReplyModal-del-box .modal-pw {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.memberReplyModal-del-box .modal-pwInput-box {
+	display: flex;
+}
+
+.memberReplyModal-del-box .modal-pwInput, .memberReplyModal-del-box .modal-pwInput-box button {
+	padding:5px;
+	margin: 5px;
+	border: 1px solid #E6E6E6;
+	outline: none;
+	border-radius: 5px;
+}
+
+.memberReplyModal-del-box .modal-pwInput-box button:hover {
+	cursor: pointer;
+	background-color: #E7B2A4;
+}
+
+.memberReplyModal-del-box .modal-form {
+	position: relative;
+	top: 50px;
+	left: 50px;
+	margin-bottom: 28px;
+    margin-left: 8px;
+}
+
+.memberReplyModal-del-box .modal-pw {
+	position: relative;
+	right: 46px;
+}
+
+.memberReplyModal-del-box i {
+	position: relative;	
+  	left: 319px;
+    top: 4px;
+    padding: 5px;
+    font-size: 20px;           
+}
+.memberReplyModal-del-box i:hover {
+	background-color: #E7B2A4;
+	border-radius: 5px;
+}
+
+

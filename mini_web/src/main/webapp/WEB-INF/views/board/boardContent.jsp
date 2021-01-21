@@ -50,7 +50,7 @@
 			<div class="bottom-content">
 				당신도 40년 노예생활해보소
 			</div>
-			<!-- 
+			
 			<div class="bottom-reply">		
 				<div class="bottom-reply-nickname">해리보로</div>
 				<div class="bottom-reply-date">2021-01-16</div>
@@ -64,6 +64,7 @@
 					<div class="click-reply-content">안녕 유짜이~안녕 유짜이~안녕 유짜이~안녕 유짜이~안녕 유짜이~안녕 유짜이~안녕 유짜이~안녕 유짜이~안녕 유짜이~</div> 
 				</div>
 			</div>
+			<!-- 
 			<div class="bottom-reply">		
 				<div class="bottom-reply-nickname">해리보로</div>
 				<div class="bottom-reply-date">2021-01-16</div>
@@ -139,7 +140,18 @@
 					<div class="click-reply-content">야 조세진 ㅡㅡ</div> 
 				</div>	
 			</div> 
-		</div>	 
+		</div>	
+		<div class="content-bottom">
+			<div class="bottom-etc">
+				<div class="etc-nickname">해리보로</div>
+				<div class="etc-date">2021-01-21</div>
+				<button class="etc-update">수정</button>
+				<button class="etc-delete">삭제</button>
+			</div>
+			<div class="bottom-content">
+				댓글 달지마!!
+			</div>
+		</div>	  
 		<form action="boardContentRegister.do" method="post">
 			<div class="content-reply">
 			<div class="reply-content">
@@ -150,6 +162,22 @@
 		</div>			
 		</form>	
 	</section>
+	
+	<!-- 본인 게시글 수정 모달창 -->  
+	<div class="memberWriteModal-update-layer">
+		<div class="memberWriteModal-update">
+			<div class="memberWriteModal-update-box">
+				<i class="fas fa-times"></i>
+				<form action="memberContentUpdate.do" method="post">
+					<div class="updateBox">
+						<div class="updateBox-titleBox">제목: <input class="updateInput title-update" type="text"></div>
+						<div style="display: flex; align-items: center;">글내용: <textarea class="updateInput content-update"></textarea></div>
+						<button>수정</button>
+					</div>		
+				</form>				
+			</div>		
+		</div>	
+	</div> 
 	
 	<!-- 본인 게시글 삭제 모달창 -->
 	<div class="memberWriteModal-del-layer">
@@ -165,36 +193,40 @@
 				</form>	
 			</div>			
 		</div>	
-	</div>
-	
-	<!-- 본인 게시글 수정 모달창 -->  
-	<div class="memberWriteModal-update-layer">
-		<div class="memberWriteModal-update">
-			<div class="memberWriteModal-update-box">
-				<i class="fas fa-times"></i>
-				<div class="updateBox">
-					<div class="updateBox-titleBox">제목: <input class="updateInput title-update" type="text"></div>
-					<div style="display: flex; align-items: center;">글내용: <textarea class="updateInput content-update"></textarea></div>
-					<button>수정</button>
-				</div>		
-			</div>		
-		</div>	
-	</div> 
+	</div>	
 	
 	<!-- 본인 대댓글 수정 모달창 -->
 	<div class="memberReplyModal-update-layer">
 		<div class="memberReplyModal-update">
-			<div class="memberReplyModal-update-box" style="background-color: aqua;">
+			<div class="memberReplyModal-update-box" >
 				<i class="fas fa-times"></i>
-				<div class="updateBox">
+				<form action="reReplyUpdate.do" method="post">
+					<div class="updateBox">
 					<div class="title_contentBox" style="display: flex; flex-direction: column;">
 						<div class="title_contentBox_content">글내용:</div>
 						<textarea class="updateInput content-update"></textarea>
 					</div>
 					<button>수정</button>
-				</div>		
+				</div>
+				</form>
 			</div>		
 		</div>	
 	</div> 
+	
+	<!-- 본인 대댓글 삭제 모달창 -->
+	<div class="memberReplyModal-del-layer">
+		<div class="memberReplyModal-del">
+			<div class="memberReplyModal-del-box">
+				<i class="fas fa-times"></i>
+				<form action="reReplyDelete.do" method="post" class="modal-form">
+					<div class="modal-pw"> 비밀번호를 입력하세요.</div>
+					<div class="modal-pwInput-box">
+						<input class="modal-pwInput" type="password">
+						<button type="submit">입력</button>
+					</div>
+				</form>	
+			</div>			
+		</div>	
+	</div>
 </body>
 </html>
